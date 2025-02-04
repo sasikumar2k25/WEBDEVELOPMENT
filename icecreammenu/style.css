@@ -1,0 +1,88 @@
+body{
+    background-color:  #f8f2e8;
+    background-image: url(https://img.freepik.com/premium-photo/balls-ice-cream-with-blackberries-slices-coconut_116377-556.jpg?semt=ais_hybrid);
+    font-family: 'poppins', sans-serif;
+ 
+    text-align: center;
+    padding: 20px;
+
+}
+.menu-container{
+    max-width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    background-image: url(https://img.freepik.com/free-photo/front-view-pistachio-icecream-with-nuts_23-2148431192.jpg?semt=ais_hybrid);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 10px;
+}
+.menu-container .shop-name{
+    color: aqua;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif ;
+}
+.menu-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+ }
+ .menu-title{
+    font-family: 'cedarville cursive';
+    color: aquamarine;
+    font-size: 50px;
+    font-weight: bold;
+ }
+ .menu-title span{
+    display: block;
+    font-size: 200px;
+    font-weight: bold;
+    color: cyan;
+    font-family: 'poppins',sans-serif ;
+
+ }
+ .menu-section{
+    text-align: left;
+    margin-top: 20px;
+
+ }
+ .section-title{
+   font-size: 30px;
+   color:violet;
+   border-bottom: 2px solid #e4da2a ;
+   padding-bottom: inline-block;
+   padding-bottom: 5px;
+   display: inline-block;
+ }
+.menu-section ul{
+    display: flow-root;
+    flex-wrap: wrap;
+    gap:10px ;
+    justify-content: space-between;
+}
+.menu-section ul li{
+    width: 50%;
+   display: flex;
+   justify-content:space-between ;
+   border-bottom: 0.6px dotted #f8f2e8;
+   font-size: 20px;
+   padding: 5px 0;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+ul li{
+    color: cyan;
+    font-style: italic;
+
+}
+ul li span{
+    font-weight: bold;
+    color: #e4da2a;
+
+}
