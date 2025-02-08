@@ -32,9 +32,15 @@ h1{
     width: 140px;
     border: none;
     cursor: pointer;
+    transition: all 1s linear 0s;
+    color: #2196f3;
+    
+    
 }
 .button:hover{
     background-color: chartreuse;
+transform: translateY(10px);
+    
 }
 main{
     padding: 20px;
@@ -91,11 +97,13 @@ footer{
     width: 60px;
     border-color: beige;
     background-color: aquamarine;
+    transition:all 1s linear 0s;
 
 }
 .fixedbutton:hover{
     background-color: black;
     color: white;
+    transform:translatex(10px) ;
 }
 form div{
     margin:5px 0 ;
