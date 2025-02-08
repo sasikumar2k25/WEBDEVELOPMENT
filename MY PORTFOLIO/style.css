@@ -6,6 +6,12 @@ header{
     height: 100vh;
     background-color: #2196f3;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 header h1{
     margin: 0;
@@ -20,6 +26,7 @@ h1{
 
 }
 .button{
+    margin: 15px;
     border-radius: 10px;
     height: 40px;
     width: 140px;
@@ -38,6 +45,11 @@ section{
     
     border-radius: 15px;
     margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
 }
 .submit{
     height: 40px;
@@ -64,6 +76,10 @@ footer{
     background-color: black;
     color: gray;
     height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .fixedbutton{
@@ -80,4 +96,7 @@ footer{
 .fixedbutton:hover{
     background-color: black;
     color: white;
+}
+form div{
+    margin:5px 0 ;
 }
