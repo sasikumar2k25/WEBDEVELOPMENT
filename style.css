@@ -1,5 +1,11 @@
 body{ 
-    margin: 0;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+    box-shadow: #222 0 4px 8px;
+
     
 }
 header{
