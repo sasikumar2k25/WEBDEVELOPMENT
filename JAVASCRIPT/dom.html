@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Modifying DOM Elements-->
+    <h1 id="head">Hello! this is sasikumaryadav</h1>
+    <!--mama nv img loo id pedithey apudu nv head loo id remove cheyali lekuntey code execute kaadu-->
+    <!-- <img id="head" src="" alt="NOPICTUREFELLOW"> -->
+    <script>
+        var head = document.getElementById("head");
+       // head.innerText= "SKY";//or  we can use .innerHTML for modify the h1 content
+       //head.setAttribute("alt","picture is loading.....")
+       head.style.color = "green"//manam direct ga html looney css raskovachu mama ela .
+       var newPara = document.createElement("p");
+       document.body.appendChild(newPara);
+       newPara.innerText ="This is our new para bhai";
+       ///newPara.style.color = "red";
+
+   //below is like hover in css when we click on it it will chnage the color of text
+       newPara.addEventListener("mouseover",function(){
+        //newPara.style.color = "blue";
+        newPara.classList.add("green");
+
+       })
+       newPara.addEventListener("mouseover",function(){
+        newPara.classList.remove("green");
+        newPara.style.color = "blue";
+            
+        })
+       
+       //traversing of DOM//
+      newPara.parentElement.removeChild(head);//it remove the child one from parent ex:-head is child and body is parent//
+      
+      
+    </script>
+</body>
+</html>
