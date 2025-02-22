@@ -1,0 +1,100 @@
+body{
+   background-image: url("https://static.vecteezy.com/system/resources/previews/009/432/530/original/night-sky-background-with-clouds-full-moon-and-stars-vector.jpg");
+   color: white;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.naswa span{
+    color: aqua;
+    text-align:  ;
+
+}
+.content span{
+    color: aqua;
+    
+
+}
+.content span:hover{
+    transform: scale(1.1);
+}
+
+.container h2{
+    margin: 10px 80px;
+    cursor: pointer;
+    font-size: 30px;
+    
+    transition: transform 0.3s ease-in-out;
+
+}
+.container h2:hover{
+    transform: scale(1.1);
+}
+.container button{
+    background: none;
+    color: aliceblue;
+    height: 40px;
+    width:100px ;
+    border-color:#fff ;
+    margin: 50px 80px;
+    position: relative;
+    bottom: 150px;
+    box-shadow: #222 0 4px 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: black;
+    transform: scale(1.1);
+}
+.content{
+    margin: 100px 80px;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: none;
+}
+.launching{
+    display: flex;
+    flex-direction: column;
+}
+.launching div{
+    flex-basis: 100px;
+    flex-direction: row;
+}
+.launching p{
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+.sky{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px 80px;
+    position: relative;
+    bottom: 150px;
+}
+   
+    
+
+
+img{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    opacity: 1;
+    animation: fading 3s infinite linear;
+}
+@keyframes fading {
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-580px);
+    }
+}
